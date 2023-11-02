@@ -2,6 +2,11 @@ FROM debian:jessie
 MAINTAINER Sita Liu <chsliu+docker@gmail>
 
 
+# Install prerequisites
+RUN apt-get update && apt-get install -y \
+curl
+CMD /bin/bash
+
 RUN echo root:pass | chpasswd && \
 	curl -o setup-repos.sh https://raw.githubusercontent.com/webmin/webmin/master/setup-repos.sh \
 	sh setup-repos.sh \
