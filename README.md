@@ -3,9 +3,9 @@ dockerfile for webmin
 
 ## Building the image
 ```
-git clone https://github.com/chsliu/docker-webmin.git
+git clone https://github.com/fmatratdev/docker-webmin.git
 cd docker-webmin
-docker build -t chsliu/webmin .
+docker build -t fmatratdev/webmin .
 ```
 
 ## Running the container
