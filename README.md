@@ -10,7 +10,7 @@ docker build -t fmatratdev/webmin .
 
 ## Running the container
 ```
-docker run -d -p 10000:10000 chsliu/webmin
+docker run -d -p 10000:10000 fmatratdev/webmin
 ```
 
 Log into webmin and manage your server
